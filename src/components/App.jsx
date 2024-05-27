@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import styles from './App.module.css';
 import ContactForm from './ContactForm/ContactForm';
 import ContactList from './ContactList/ContactList';
-import SearchBox from './SearchBox/SearchBox';
+import SearchBox from './SearshBox/SearchBox';
 
 const App = () => {
   const [contacts, setContacts] = useState(() => {
